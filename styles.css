@@ -1,0 +1,96 @@
+body
+{
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo1OKoYQ6PCh9ZbLeqIspMkSxdlfFsxu0mFwFertWhgw&s);
+  font-family:serif;
+}
+form
+{
+  background-color: rgb(227,145,150);
+  margin: auto auto;
+  width: 77%;
+  height:89%;
+}
+#title, #description
+{
+  text-align: center;
+}
+#description
+{
+  margin-top: -1em;
+}
+fieldset
+{
+  border: 0;
+}
+label
+{
+display: block;
+margin: 1em;  
+font-size:19px;
+}
+label input
+{
+  margin-left:20;
+  display:block;
+  width: 7cm;
+  margin-top: 7;
+  border: 1px solid white;
+  height:33px;
+  background-color:#b4b45b;
+}
+
+label select
+{
+  display: block;
+  margin-top: 1em;
+  width: 400px;
+  height: 25px;
+}
+
+input[type="radio"]
+{
+  width:unset;
+  margin:unset;
+  display:inline;
+}
+#additional-comments
+{
+  display:block;
+  margin-top: 1%;
+  width: 12cm;
+}
+
+input[type="checkbox"]
+{
+  width: unset;
+  margin-left: 1cm;
+}
+label[for="agree"]
+{
+  display: inline;
+}
+#agree
+{
+  display: inline;
+}
+
+input[type="submit"]
+{
+  width: 4cm;
+  height: 0.9cm;
+  color: white;
+  display: block;
+  margin-top: 3em;
+  margin-bottom:1em;
+  margin-left: auto;
+  margin-right:auto;
+  background-color: #3b3b6f;
+}
+label label
+{
+  display: inline;
+}
+label:first-of-type
+{
+  padding-top: 1em;
+}

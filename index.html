@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Real Logistics Survey Form</h1>
+    <p id="description">Thank you for taking the time to give us feedback</p>
+    <form id="survey-form">
+      <label id="name-label">Enter Your Name: <input id="name" type="text" placeholder="Jennifer Lawrence" required></label>
+      <label id="email-label">Enter Your Email: <input id="email" type="email" placeholder="123@gmail.com" required></label>
+      <label id="number-label">Enter Your Age: <input id="number" type="number" placeholder="27" min="13" max="120"></label>
+      <label for="dropdown">
+        What is your favourite feature in our business?
+      <select id="dropdown">
+        <option>(select an option)</option>
+        <option>Exceptional Service</option>
+        <option>Affordable Pricing</option>
+        <option>Loyalty Benefits</option>
+        </select>
+      </label>
+<label>
+  Would you recommend us to a friend?
+        <label for="yes"><input type="radio" name="radio-option"
+        value="yes" id="yes">Yes</label>
+     <label for="no"><input type="radio" name="radio-option"
+     value="no" id="no">No</label>
+</label>
+<label>
+  Other comments: 
+<textarea rows="4" cols="30" placeholder="Real Logistics is amazing!" id="additional-comments"></textarea>
+</label>
+<input type="checkbox" id="agree" value="opinion-disclosure">I agree to sharing my opinion.My opinion is private and protected.
+<br>
+<input type="checkbox" id="email-checkbox" value="email-discounts-and-offers">Send me email about offers and discounts.
+
+<input type="submit" value="Submit" id="submit">
+    </form>
+  </body>
+</html
